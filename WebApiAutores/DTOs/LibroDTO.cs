@@ -18,7 +18,8 @@ namespace WebApiAutores.DTOs
         /// </summary>
         public string Titulo { get; set; }
         /// <summary>
-        /// Lista de autores
+        /// Fecha Publicacion
         /// </summary>
+        public DateTime FechaPublicacion { get; set; }
     }
 }
